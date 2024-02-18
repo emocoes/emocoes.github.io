@@ -3,33 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Web Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <header>
-        <h2 class="logo"><span>Math</span>eus</h2>
-        <nav class="navigation">
-            <a href="#">Home</a>
-            <a href="#">Projects</a>
-            <a href="#">Skills</a>
-        </nav>
-        <!-- <a href="#" class="btn-talk">GitHub</a> -->
-    </header>
-    
-    <section class="home">
+    <nav>
+        <div class="nav__content">
+            <div class="logo"><a href="#"><i class="ri-terminal-fill"></i></a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-3-fill"></i>
+            </label>
+            <input type="checkbox" name="check" id="check">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#" class="dev-github"><i class="ri-github-line"></i> GitHub</a></li>
+            </ul>
+    </div>
+</nav>
 
-        <div class="content">
-            <h2>Olá,<span> sou Matheus</span></h2>
-            <h4>Frontend Developer</h4>
-            <p>Um jovem developer front-end com seu compromisso com o aprendizado contínuo e sua habilidade de adaptação o destacam como um talento promissor no mundo da tecnologia.</p>
-            <div class="btn-group">
-                <a href="#">Linkedin</a>
-                <a href="#">GitHub</a>
+    <section class="section">
+        <div class="section__container">
+            <div class="content">
+            <h1 class="title">
+                I'm <b>Matheus </b><br><span class="web-dev">front-end</span> e <span class="web-dev-2">back-end</span>
+            </h1>
+            <p class="description">Um jovem desenvolvedor front-end, com seu compromisso, aprendizado contínuo e sua habilidade de adaptação, destaca-se com seu talento promissor no mundo da tecnologia.
+            </p>
+            <div class="action__btns">
+                <button class="html"><i class="fab fa-html5"></i> HTML</button>
+                <button class="css"><i class="ri-css3-line"></i> CSS</button>
+                <button class="js"><i class="fab fa-js"></i> JavaScript</button>
             </div>
         </div>
+        <div class="image">
+            <img src="logo.png" alt="profile">
+        </div>
+        </div>
     </section>
-
 </body>
 </html>
